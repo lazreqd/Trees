@@ -2,7 +2,8 @@
 
 This is the github repo for the Trees project!!
 
-#Resources
+# Resources
+
 ReforesTree paper: https://arxiv.org/abs/2201.11192
 
 ReforesTree Github page: https://github.com/gyrrei/ReforesTree
