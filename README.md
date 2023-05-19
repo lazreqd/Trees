@@ -16,4 +16,4 @@ ResNet Documentation: https://pytorch.org/vision/main/models/resnet.html
 
 HuggingFace ResNet Overview: https://huggingface.co/docs/transformers/main/en/model_doc/resnet (Margaux, I think this is the one you mentioned -- let me know if it's not!)
 
-The one website Payel showed that I can't rememeber the name of :( 
+TowardsDataScience Discussion of Similar Problem: https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61
