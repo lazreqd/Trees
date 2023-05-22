@@ -19,3 +19,5 @@ HuggingFace ResNet Overview: https://huggingface.co/docs/transformers/main/en/mo
 TowardsDataScience Discussion of Similar Problem: https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61
 
 EfficientNet Paper: https://arxiv.org/abs/1905.11946 (Basically says that EfficientNet outperforms comparable CNN architectures including ResNet34, ResNet50, and ResNet152)
+
+EfficientNet Documentation: https://pytorch.org/hub/nvidia_deeplearningexamples_efficientnet/ and https://pytorch.org/vision/main/models/efficientnet.html
