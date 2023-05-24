@@ -8,6 +8,8 @@ ReforesTree paper: https://arxiv.org/abs/2201.11192
 
 ReforesTree Github page: https://github.com/gyrrei/ReforesTree
 
+Improvements on ResforTree Github page: https://github.com/TimEngelmann/ai4est
+
 DeepForest Documentation: https://deepforest.readthedocs.io/en/latest/index.html
 
 Kaggle Amazon data: https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data
