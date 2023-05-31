@@ -1,25 +1,19 @@
 # Trees
 
-This is the github repo for the Trees project!!
+Team Trees utilizes a convolutional neural network to classify trees at six different agro-forestry sites in Ecuador. This project is part of [The Erdos Institute's May 2023 Data Science Bootcamp](https://www.erdosinstitute.org/). 
 
-## Resources
+### Team Members
 
-ReforesTree paper: https://arxiv.org/abs/2201.11192
 
-ReforesTree Github page: https://github.com/gyrrei/ReforesTree
+## Background
 
-Improvements on ReforesTree Github page: https://github.com/TimEngelmann/ai4est
 
-DeepForest Documentation: https://deepforest.readthedocs.io/en/latest/index.html
+## Methodology
 
-Kaggle Amazon data: https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data
 
-ResNet Documentation: https://pytorch.org/vision/main/models/resnet.html
+## Results
 
-HuggingFace ResNet Overview: https://huggingface.co/docs/transformers/main/en/model_doc/resnet (Margaux, I think this is the one you mentioned -- let me know if it's not!)
 
-TowardsDataScience Discussion of Similar Problem: https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61
+## Acknowledgements
 
-EfficientNet Paper: https://arxiv.org/abs/1905.11946 (Basically says that EfficientNet outperforms comparable CNN architectures including ResNet34, ResNet50, and ResNet152)
 
-EfficientNet Documentation: https://pytorch.org/hub/nvidia_deeplearningexamples_efficientnet/ and https://pytorch.org/vision/main/models/efficientnet.html
