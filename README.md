@@ -21,6 +21,8 @@ Two models were developed to explore tree species classification: a binary class
 
 ## Results
 
+<img width="436" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/d26f8aa4-8a2f-4ac3-be5c-ae76aa995291">
+
 
 ## Acknowledgements
 Reiersen, G., Dao, D., Lütjens, B., Klemmer, K., Amara, K., Steinegger, A., Zhang, C., & Zhu, X. (2022). ReforesTree: A Dataset for Estimating Tropical Forest Carbon Stock with Deep Learning and Aerial Imagery. Proceedings of the AAAI Conference on Artificial Intelligence, 36(11), 12119-12125. https://doi.org/10.1609/aaai.v36i11.21471
