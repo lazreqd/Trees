@@ -24,6 +24,26 @@ The model was very good at binary classification, meaning that the model was ver
 
 <img width="389" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/0bbff866-32b0-4c48-b41a-7c2fe0a840b9">
 
+However, the model did not perform well for multi-class classification. 
+
+<img width="594" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/d27592f1-2c6a-42d0-af40-d868aac2d4cd">
+Tree Species
+Precision
+Recall
+Banana
+92%
+94%
+Cacao
+58%
+55%
+Other
+58%
+60%
+<img width="294" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/e922bcbf-7de2-41bd-8583-72a6b0fa0740">
+
+
+
+
 ## Acknowledgements
 Reiersen, G., Dao, D., Lütjens, B., Klemmer, K., Amara, K., Steinegger, A., Zhang, C., & Zhu, X. (2022). ReforesTree: A Dataset for Estimating Tropical Forest Carbon Stock with Deep Learning and Aerial Imagery. Proceedings of the AAAI Conference on Artificial Intelligence, 36(11), 12119-12125. https://doi.org/10.1609/aaai.v36i11.21471
 
