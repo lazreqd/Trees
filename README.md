@@ -10,7 +10,6 @@ Team Trees utilizes a convolutional neural network to classify trees at six diff
 [Payel Mukhopadhyay](https://www.linkedin.com/in/payel-mukhopadhyay-5529b026b/),
 [Carissa Moore](https://www.linkedin.com/in/carissa-moore-b579a8194/)
 
-
 ## Introduction
 Over the past few decades, the amount of carbon dioxide has increased in the atmosphere. Carbon dioxide is the major greenhouse gas contributing to climate change. Because of the vital role that plants play in the carbon cycle, forests can act as a sink to sequester carbon from the atmosphere and store it in trees. However, due mainly to anthropogenic activities, much of the world's forest coverage has been lost. Over the past few decades, though, several conservation efforts have been undertaken to restore what has been lost and to aid in mitigation of climate change. 
 
