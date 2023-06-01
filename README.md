@@ -27,18 +27,7 @@ The model was very good at binary classification, meaning that the model was ver
 However, the model did not perform well for multi-class classification. 
 
 <img width="594" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/d27592f1-2c6a-42d0-af40-d868aac2d4cd">
-Tree Species
-Precision
-Recall
-Banana
-92%
-94%
-Cacao
-58%
-55%
-Other
-58%
-60%
+
 <img width="294" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/e922bcbf-7de2-41bd-8583-72a6b0fa0740">
 
 
