@@ -17,20 +17,24 @@ Over the past few decades, the amount of carbon dioxide has increased in the atm
 The original ReforesTree dataset can be downloaded from [Zenodo](https://zenodo.org/record/6813783). Six agro-forestry sites in Ecuador were used to collect the data. This data includes raw drone RGB images, hand measured field data (tree species, diameter, biomass, etc.), a set of bounding boxes of trees for each site, and mappings of these bounding boxes with GPS locations. 
 
 ## Methodology
-Two models were developed to explore tree species classification: a binary classification model and a multi-class classification model. The binary classification model classified trees between banana and not banana. The multiclass classification model classified trees as either banana, cacao, or other. A separate model was developed to estimate the above-ground biomass (AGB) for the sites. AGB is used as a proxy to predict the estimated carbon offset. For all three models, the data was split into 80% training and 20% test. For the training set, 20% of the data was extracted and used as a validation set. The images were run through a convolutional neural network, specifically ResNet 18. The network ran for 15 epochs and was validated against a precision and recall score. Both a precision and recall score were used since the model needs to be able to accurately and repeatedly identify the tree species. 
+Two models were developed to explore tree species classification: a binary classification model and a multi-class classification model. The binary classification model classified trees between banana and not banana. The multiclass classification model classified trees as either banana, cacao, or other. A separate model was developed to estimate the above-ground biomass (AGB) for the sites. AGB is used as a proxy to predict the estimated carbon offset. For all three models, the data was split into 80% training and 20% test. For the training set, 20% of the data was extracted and used as a validation set. The images were run through a convolutional neural network (CNN), specifically ResNet 18. Both a simple CNN and EfficientNetB0 were also used, however, it was found that ResNet18 performed slighlty better. The network ran for 15 epochs and was validated against a precision and recall score. Both a precision and recall score were used since the model needs to be able to accurately and repeatedly identify the tree species. 
 
 ## Results
 The model was very good at binary classification, meaning that the model was very good at identifying a banana tree. This can be seen in the chart below. The precision and recall score for this model was 97% and 95%, respectively. 
 
 <img width="389" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/0bbff866-32b0-4c48-b41a-7c2fe0a840b9">
 
-However, the model did not perform well for multi-class classification. 
+However, the model did not perform well for multi-class classification. The heat map below suggests that banana tree identification is still good, but when identifying cacao and other species, it does not perform at the same caliber.  
 
 <img width="594" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/d27592f1-2c6a-42d0-af40-d868aac2d4cd">
 
 <img width="294" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/e922bcbf-7de2-41bd-8583-72a6b0fa0740">
 
+The model learns the AGB estimates of the training set well, but it fails to generalize as well on the validation and test sets. Compared to other models, it does not vastly overestimate carbon stock, which is a consequence of only learning from the drone data. This suggests that hand-measured field data is needed for any predicitions on carbon offsets.
 
+<img width="509" alt="image" src="https://github.com/lazreqd/Trees/assets/119758503/dd02d913-3ecf-4d65-a690-17e624a0dc16">
+
+There were a couple of challenges associated with this data. Primarily, there was a lot of GPS noise in the data that led to data pre-processing issues. As alluded to earlier, drone imagery and deep learning without hand collected field data may not provide meaningful predictions of the carbon stock. Therefore future work should include more complex data cleaning and pre-processing, improvements in CNN modeling, and updates for drone imagery and field data. 
 
 
 ## Acknowledgements
