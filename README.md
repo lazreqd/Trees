@@ -3,11 +3,11 @@
 Team Trees utilizes a convolutional neural network to classify trees at six different agro-forestry sites in Ecuador. This project is part of [The Erdos Institute's May 2023 Data Science Bootcamp](https://www.erdosinstitute.org/). 
 
 ### Team Members
-[Michael Cerchia](https://www.linkedin.com/in/michael-cerchia-57a4b062/)
-[Irit Huq-Kuruvilla](https://www.linkedin.com/in/irit-huq-kuruvilla-944a36179/)
-[Margaux Joe](https://www.linkedin.com/in/margaux-joe)
-[Dounia Lazreq](https://www.linkedin.com/in/dounia-lazreq/)
-[Payel Mukhopadhyay](https://www.linkedin.com/in/payel-mukhopadhyay-5529b026b/)
+[Michael Cerchia](https://www.linkedin.com/in/michael-cerchia-57a4b062/),
+[Irit Huq-Kuruvilla](https://www.linkedin.com/in/irit-huq-kuruvilla-944a36179/),
+[Margaux Joe](https://www.linkedin.com/in/margaux-joe),
+[Dounia Lazreq](https://www.linkedin.com/in/dounia-lazreq/),
+[Payel Mukhopadhyay](https://www.linkedin.com/in/payel-mukhopadhyay-5529b026b/),
 [Carissa Moore](https://www.linkedin.com/in/carissa-moore-b579a8194/)
 
 
