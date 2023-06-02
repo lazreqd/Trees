@@ -22,7 +22,7 @@ Two models were developed to explore tree species classification: a binary class
 ## Results
 The model was very good at binary classification, meaning that the model was very good at identifying a banana tree. This can be seen in the chart below. The precision and recall score for this model was 97% and 95%, respectively. 
 
-![accuracy of banana classifier](https://github.com/lazreqd/Trees/tree/main/Documentation/accuracy_banana.png)
+![accuracy of banana classifier](Documentation/accuracy_banana.png)
 
 However, the model did not perform well for multi-class classification. The heat map below suggests that banana tree identification is still good, but when identifying cacao and other species, it does not perform at the same caliber.  
 
