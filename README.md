@@ -32,7 +32,7 @@ However, the model did not perform well for multi-class classification. The heat
 
 ![precision-recall](Documentation/pr.png)
 
-The model learns the AGB estimates of the training set well, but it fails to generalize as well on the validation and test sets. Compared to other models, it does not vastly overestimate carbon stock, which is a consequence of learning directly from the drone and the field data. This suggests that hand-measured field data is needed for any predicitions on carbon offsets.
+The model learns the AGB estimates of the training set well, but it fails to generalize as well on the validation and test sets. Compared to other models, it does not vastly overestimate carbon stock, which is a consequence of learning directly from the drone and the field data. This suggests that hand-measured field data is needed for any predicitions on carbon offsets. Our results also suggest that cleaner drone images of tree crowns coupled with some hand measured data could provide a way to low cost and more accurate carbon estimates in the future.
 
 ![AGB bananas](Documentation/agb.png)
 
